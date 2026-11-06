@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="السيرة الذاتية لمحمد رمضان محمد عبدالله">
+  <title>CV | محمد رمضان محمد عبدالله</title>
+  <style>
+    :root { --navy:#142b4a; --blue:#2563eb; --ink:#243247; --muted:#617087; --bg:#f3f6fb; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Tahoma,sans-serif; background:var(--bg); color:var(--ink); line-height:1.75; }
+    header { background:linear-gradient(135deg,#142b4a,#2563eb); color:white; padding:42px 20px 34px; text-align:center; }
+    header h1 { margin:0 0 6px; font-size:clamp(25px,5vw,38px); }
+    header p { margin:4px 0; }
+    .controls { display:flex; justify-content:center; gap:10px; padding:16px; }
+    button { border:0; border-radius:9px; padding:10px 18px; cursor:pointer; background:white; color:var(--navy); font-weight:bold; box-shadow:0 2px 8px #142b4a18; }
+    button.active { background:var(--blue); color:white; }
+    main { max-width:900px; margin:0 auto; padding:8px 18px 42px; }
+    .card { background:white; border-radius:14px; padding:22px 24px; margin:15px 0; box-shadow:0 5px 18px #142b4a0d; }
+    h2 { color:var(--navy); font-size:20px; margin:0 0 12px; border-bottom:2px solid #e7eef8; padding-bottom:8px; }
+    ul { margin:8px 0; padding-inline-start:22px; }
+    li { margin:5px 0; }
+    .contact { display:flex; flex-wrap:wrap; gap:10px 22px; justify-content:center; margin-top:18px; font-size:14px; }
+    a { color:inherit; }
+    .contact a { color:white; text-decoration:none; }
+    .tagline { opacity:.92; }
+    footer { text-align:center; color:var(--muted); padding:20px; font-size:13px; }
+    [hidden] { display:none !important; }
+    @media(max-width:600px) { .card { padding:18px; } header { padding-top:32px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>محمد رمضان محمد عبدالله</h1>
+    <p class="tagline" data-ar="مهتم بالبرمجة وتطوير البرمجيات" data-en="Programming & Software Development Enthusiast">مهتم بالبرمجة وتطوير البرمجيات</p>
+    <p data-ar="أسيوط، مصر" data-en="Assiut, Egypt">أسيوط، مصر</p>
+    <div class="contact">
+      <a href="mailto:almalalabgameworld@gmail.com">almalalabgameworld@gmail.com</a>
+      <a href="tel:01558990041" dir="ltr">01558990041</a>
+    </div>
+  </header>
+
+  <div class="controls" aria-label="Language">
+    <button id="arBtn" class="active" type="button">العربية</button>
+    <button id="enBtn" type="button">English</button>
+  </div>
+
+  <main id="arabic">
+    <section class="card">
+      <h2>نبذة شخصية</h2>
+      <p>طالب بالصف الثالث الإعدادي، شغوف بالتكنولوجيا والبرمجة وتطوير البرمجيات، ومهتم بإنشاء البرامج والألعاب الإلكترونية والتطبيقات. أعمل على تطوير مهاراتي من خلال التعلم المستمر والمشاريع الشخصية.</p>
+    </section>
+    <section class="card">
+      <h2>التعليم والتدريب</h2>
+      <ul>
+        <li>طالب بالصف الثالث الإعدادي.</li>
+        <li>دراسة البرمجة من خلال منصة iSchool.</li>
+        <li>دراسة دورات تعليمية عبر منصة almentor.</li>
+        <li>دراسة المجالات التقنية من خلال Huawei.</li>
+        <li>التعلم ضمن مبادرة براعم وأشبال مصر الرقمية التابعة لوزارة الاتصالات وتكنولوجيا المعلومات.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>الشهادات والإنجازات</h2>
+      <ul>
+        <li>حاصل على شهادات مدرسية.</li>
+        <li>حاصل على شهادات من منصات تعليمية متخصصة في البرمجة والتكنولوجيا.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>المهارات</h2>
+      <ul>
+        <li>البرمجة وتطوير البرمجيات.</li>
+        <li>إنشاء وتطوير الألعاب الإلكترونية والتطبيقات.</li>
+        <li>استخدام الكمبيوتر.</li>
+        <li>حل المشكلات والتفكير المنطقي.</li>
+        <li>التعلم الذاتي والبحث التقني.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>المشاريع والأعمال الشخصية</h2>
+      <p>العمل على إنشاء وتطوير برامج وتطبيقات شخصية، وتجربة الأفكار البرمجية وتحويلها إلى مشاريع عملية، مع اهتمام خاص بتطوير الألعاب الإلكترونية.</p>
+    </section>
+    <section class="card">
+      <h2>الهدف</h2>
+      <p>الحصول على فرصة تدريب أو فرصة مناسبة للمبتدئين في مجال التكنولوجيا والبرمجة، لتطبيق المهارات واكتساب خبرة عملية ومواصلة التعلم والتطور.</p>
+    </section>
+  </main>
+
+  <main id="english" hidden dir="ltr" lang="en">
+    <section class="card">
+      <h2>Personal Profile</h2>
+      <p>A third-year preparatory school student with a strong interest in technology, programming, and software development. Interested in creating software, video games, and applications, while continuously developing skills through learning and personal projects.</p>
+    </section>
+    <section class="card">
+      <h2>Education & Training</h2>
+      <ul>
+        <li>Third-Year Preparatory School Student.</li>
+        <li>Programming studies through iSchool.</li>
+        <li>Online courses through almentor.</li>
+        <li>Technical learning through Huawei.</li>
+        <li>Learning through Egypt's Digital Buds and Digital Cubs Initiative, affiliated with the Ministry of Communications and Information Technology.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Certificates & Achievements</h2>
+      <ul>
+        <li>Recipient of school certificates.</li>
+        <li>Recipient of certificates from educational platforms specializing in programming and technology.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming and software development.</li>
+        <li>Creating and developing games and applications.</li>
+        <li>Computer skills.</li>
+        <li>Problem-solving and logical thinking.</li>
+        <li>Self-learning and technical research.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Personal Projects</h2>
+      <p>Working on personal software and application projects, exploring programming ideas, and turning them into practical projects, with a particular interest in game development.</p>
+    </section>
+    <section class="card">
+      <h2>Objective</h2>
+      <p>To find a suitable beginner-level opportunity or training opportunity in technology and programming where I can apply my skills, gain practical experience, and continue learning and growing.</p>
+    </section>
+  </main>
+
+  <footer>CV | محمد رمضان محمد عبدالله</footer>
+
+  <script>
+    const arBtn = document.getElementById('arBtn');
+    const enBtn = document.getElementById('enBtn');
+    const ar = document.getElementById('arabic');
+    const en = document.getElementById('english');
+    function setLanguage(language) {
+      const isArabic = language === 'ar';
+      ar.hidden = !isArabic;
+      en.hidden = isArabic;
+      document.documentElement.lang = isArabic ? 'ar' : 'en';
+      document.documentElement.dir = isArabic ? 'rtl' : 'ltr';
+      arBtn.classList.toggle('active', isArabic);
+      enBtn.classList.toggle('active', !isArabic);
+      document.title = isArabic ? 'CV | محمد رمضان محمد عبدالله' : 'CV | Mohamed Ramadan Mohamed Abdullah';
+    }
+    arBtn.addEventListener('click', () => setLanguage('ar'));
+    enBtn.addEventListener('click', () => setLanguage('en'));
+  </script>
+</body>
+</html>
